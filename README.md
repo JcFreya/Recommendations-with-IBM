@@ -1,7 +1,14 @@
 # Recommendations-with-IBM
 
 ## Introduction
-This project will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. Below you can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform. The project will be designed in the following steps:
+This project will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. Below you can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform.  
+
+<img src="Recommendations_with_IBM.png" width="80%" alt="Recommendations with IBM">
+
+Though the above dashboard is just showing the newest articles, you could imagine having a recommendation board available here that shows the articles that are most pertinent to a specific user.
+
+
+The project will be designed in the following steps:
 
 - I. Exploratory Data Analysis  
 Before making recommendations of any kind, you will need to explore the data you are working with for the project. Dive in to see what you can find. There are some basic, required questions to be answered about the data you are working with throughout the rest of the notebook. Use this space to explore, before you dive into the details of your recommendation system in the later sections.  
@@ -17,3 +24,23 @@ Given the amount of content available for each article, there are a number of di
 
 - V. Matrix Factorization  
 Finally, you will complete a machine learning approach to building recommendations. Using the user-item interactions, you will build out a matrix decomposition. Using your decomposition, you will get an idea of how well you can predict new articles an individual might interact with (spoiler alert - it isn't great). You will finally discuss which methods you might use moving forward, and how you might test how well your recommendations are working for engaging users.
+
+
+## Required libraries
+
+- python 3.6.3
+- pandas 0.20.3
+- numpy 1.12.1
+- matplotlib 2.1.0
+- sklearn 0.19.1
+
+## Files
+
+- Recommendations_with_IBM.ipynb: My answer for recommendations, It describe how to recommend articles to users
+- Recommendations_with_IBM.html: As the same of above notebook but format is html.
+
+## Acknowledgements
+
+Thank [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com/) for dataset, and [Udacity](https://www.udacity.com/) for advice and review.
+
+
